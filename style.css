@@ -1,0 +1,111 @@
+/* CSS files add styling rules to your content */
+/* TEXT FORMATTING */
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  margin: 2em;
+  background-color: #E1ECF4;
+  color: #2176ae;
+}
+
+h1 {
+  font-style: bold;
+  color: #e15554;
+  padding: 0px, 0px, 0px, 0px;
+  margin-bottom: 0px; 
+}
+
+h2 {
+  color: #f59a90;
+  padding: 0px, 0px, 0px, 0px;
+  margin-top: 10px; 
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 0px; 
+  padding-left: 33px;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-left: 33px;
+}
+
+p {
+  padding: 15px 15px 15px 15px;
+  background: #CFEBFF;
+  align: top;
+}
+
+/* Display/Containers/etc Formatting */
+header {
+  padding: 15px;
+  text-align: center;
+  background: #ffffff;
+  font-size: 30px;
+  box-shadow: 10px 10px #2176ae;
+}
+.sidebar{
+  height: 100%;
+  width: 160px;
+  position: fixed; 
+  z-index: 1;
+  top: 0; 
+  left: 0;
+  background-color: #abdaff;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: center;
+}
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  /*justify-content: center;*/
+  /*align-content: flex-start;*/
+  padding-top: 15px;
+}
+.item {
+  /* flex-basis: auto;*/
+  background: #abdaff;
+  margin-top: 25px;
+  box-shadow: 7px 7px #2176ae;
+  /*flex-grow: 1;
+  flex-shrink:1;*/
+}
+img {
+  max-width: 97%;
+  align: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: block;
+}
+
+
+/*
+Color Scheme:
+Dark Blue: 2176ae
+Blue: 57b8ff
+Light Blue: abdaff
+Cream: fff2f0
+Light Red: f59a90
+Red: e15554
+White: fffbff
+Black: 2a2b2a
+*/
+
+/* Picture Links:
+xiao ren guo: https://i2.wp.com/cushtravel.com/wp-content/uploads/2018/10/taoyuan-window-on-china-theme-park.jpg?fit=696%2C522&ssl=1
+yangmingshan: https://storage.googleapis.com/smiletaiwan-cms-cwg-tw/article/201805/article-5afd3c77edcdf.jpg
+taipei 101: https://lp-cms-production.imgix.net/2019-06/f15f7b57ab31c217f471c6712a2654e0-taipei-101.jpg
+national palace museum: https://www.travel.taipei/image/52656/1024x768
+yushan: https://tnimage.s3.hicloud.net.tw/photos/shares/5b86616758f47.png
+shilin night market: https://eng.taiwan.net.tw/att/1/big_scenic_spots/pic_154_14.jpg
+*/
